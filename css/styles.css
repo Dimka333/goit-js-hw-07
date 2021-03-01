@@ -1,0 +1,51 @@
+.gallary__list {
+  display: flex;
+  margin: -10px;
+  list-style: none;
+}
+
+.gallary__item {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.gallary__img {
+  display: block;
+  width: 260px;
+  height: auto;
+}
+
+.gallary__box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#counter {
+  padding: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#font-size-control {
+  display: block;
+  margin-top: 40px;
+}
+
+#font-size-control {
+  margin-top: 40px;
+}
+
+#text {
+  font-size: 50px;
+}
